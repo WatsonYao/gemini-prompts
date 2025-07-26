@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <!-- Grayscale theme colors -->
+    <color name="dark_background">#121212</color>
+    <color name="dark_surface">#1E1E1E</color>
+    <color name="dark_component">#303030</color>
+    <color name="dark_input">#424242</color>
+    <color name="primary_gray">#2E2E2E</color>
+    <color name="text_secondary">#CCCCCC</color>
+</resources>

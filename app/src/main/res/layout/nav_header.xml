@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#303030">
+
+    <!-- 文本输入区域，占用上半部分 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/et_user_input"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="请输入您的文本..."
+            android:gravity="top"
+            android:inputType="textMultiLine"
+            android:background="#424242"
+            android:textColor="@android:color/white"
+            android:textColorHint="#CCCCCC"
+            android:padding="12dp" />
+
+    </LinearLayout>
+
+    <!-- 分类选择区域，占用下半部分 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:layout_marginTop="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="选择 Prompt 分类:"
+            android:textColor="@android:color/white"
+            android:textSize="16sp"
+            android:layout_marginBottom="8dp" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <RadioGroup
+                android:id="@+id/rg_prompt_categories"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            </RadioGroup>
+
+        </ScrollView>
+
+    </LinearLayout>
+
+    <!-- 发送按钮，固定在底部 -->
+    <Button
+        android:id="@+id/btn_send"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:text="发送"
+        android:background="#2E2E2E"
+        android:textColor="@android:color/white"
+        android:textSize="16sp"
+        android:layout_marginTop="16dp" />
+
+</LinearLayout>

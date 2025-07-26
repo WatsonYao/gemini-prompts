@@ -1,0 +1,31 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Prompts" parent="Theme.Material3.Dark.NoActionBar">
+        <!-- Dark theme colors - same as main theme -->
+        <item name="colorPrimary">#2E2E2E</item>
+        <item name="colorPrimaryVariant">#1E1E1E</item>
+        <item name="colorOnPrimary">#FFFFFF</item>
+        <item name="colorSecondary">#424242</item>
+        <item name="colorSecondaryVariant">#303030</item>
+        <item name="colorOnSecondary">#FFFFFF</item>
+        <item name="colorTertiary">#424242</item>
+        <item name="colorOnTertiary">#FFFFFF</item>
+        <item name="colorError">#CF6679</item>
+        <item name="colorOnError">#000000</item>
+        <item name="colorSurface">#121212</item>
+        <item name="colorOnSurface">#FFFFFF</item>
+        <item name="colorSurfaceVariant">#303030</item>
+        <item name="colorOnSurfaceVariant">#CCCCCC</item>
+        <item name="colorOutline">#424242</item>
+        <item name="colorOutlineVariant">#303030</item>
+        <item name="android:colorBackground">#121212</item>
+        <item name="colorOnBackground">#FFFFFF</item>
+        <!-- Override Material3 purple accent colors -->
+        <item name="colorPrimaryContainer">#2E2E2E</item>
+        <item name="colorOnPrimaryContainer">#FFFFFF</item>
+        <item name="colorSecondaryContainer">#424242</item>
+        <item name="colorOnSecondaryContainer">#FFFFFF</item>
+        <item name="colorTertiaryContainer">#424242</item>
+        <item name="colorOnTertiaryContainer">#FFFFFF</item>
+    </style>
+</resources>
